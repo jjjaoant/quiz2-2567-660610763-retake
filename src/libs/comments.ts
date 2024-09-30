@@ -9,7 +9,7 @@ export const comments = [
         username: "หมาน้อย",
         userImagePath: "/profileImages/puppy.jpg",
         replyText: "จริงค้าบบบบบบบบ",
-        likeNum: 0,
+        likeNum: "",
       },
       {
         username: "Cat Meme",
@@ -23,7 +23,7 @@ export const comments = [
     username: "Charlie Brown",
     userImagePath: "/profileImages/charliebrown.jpg",
     commentText: "บ้าไปแล้ว",
-    likeNum: 0,
+    likeNum: "",
     replies: [],
   },
 ];
