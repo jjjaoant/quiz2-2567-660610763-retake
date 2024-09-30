@@ -20,7 +20,7 @@ export default function Reply({ userImagePath, username, replyText, likeNum }:Re
             </span>
             <br />
             <span style={{ color: "#E4E6EB" }}>{replyText}</span>
-            {likeNum && <div className="d-flex align-items-center gap-1">
+            {likeNum != 0 && <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
               <span style={{ color: "#B0B3B8" }}>{likeNum}คน</span>
             </div>}

@@ -3,7 +3,6 @@
 import PostOwnner from "@/components/PostOwnner";
 import Comment from "@/components/Comment";
 import { comments } from "@/libs/comments";
-import {CommentProps, ReplyProps} from "@/libs/types";
 export default function Home() {
   return (
     <div
